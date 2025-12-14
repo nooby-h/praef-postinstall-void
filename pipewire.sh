@@ -13,8 +13,8 @@ mkdir -p $HOME/.config/autostart/
 AUTOSTARTDIR=$HOME/.config/autostart/
 AUTOSTARTFILE=$AUTOSTARTDIR/pipewire.desktop
 echo '[Desktop Entry]' > $HOME/.config/autostart/pipewire.desktop
-echo 'Exec=/usr/bin/pipewire' > $AUTOSTARTFILE
-echo 'Icon=application-x-executable' > $AUTOSTARTFILE
-echo 'Name=pipewire' > $AUTOSTARTFILE
-echo 'Type=Application' > $AUTOSTARTFILE
-echo 'X-GNOME-Autostart-enabled=true' > $AUTOSTARTFILE
+echo 'Exec=/usr/bin/pipewire' >> $AUTOSTARTFILE
+echo 'Icon=application-x-executable' >> $AUTOSTARTFILE
+echo 'Name=pipewire' >> $AUTOSTARTFILE
+echo 'Type=Application' >> $AUTOSTARTFILE
+echo 'X-GNOME-Autostart-enabled=true' >> $AUTOSTARTFILE
