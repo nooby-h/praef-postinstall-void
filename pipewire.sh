@@ -1,6 +1,6 @@
 
 ## setting up pipewire
-sudo xbps-install -Sy pipewire pipewire-devel
+sudo xbps-install -Sy pipewire pipewire-devel wireplumber wireplumber-elogind
 sudo mkdir -p /etc/pipewire/pipewire.conf.d/
 
 ## setting up configs
