@@ -13,7 +13,7 @@ xi -y bluez
 sudo ln -s /etc/sv/bluetoothd /var/service
 
 ## useful tools
-xi -y git curl wget zsh fish btop eza bat
+xi -y git curl wget zsh fish-shell btop eza bat
 
 
 echo 'Please do "sudo xmirror" and choose the closest tier 1 mirror"'
