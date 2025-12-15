@@ -16,4 +16,4 @@ sudo ln -s /etc/sv/bluetoothd /var/service
 xi -y git curl wget zsh fish btop eza bat
 
 
-echo 'Please do "sudo xmirror" and choose the closest tier 1 mirror"
+echo 'Please do "sudo xmirror" and choose the closest tier 1 mirror"'
